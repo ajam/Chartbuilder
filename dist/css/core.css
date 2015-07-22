@@ -4,7 +4,7 @@
 }
 .cb-colorpicker-els.active::after {
   top: auto;
-  bottom: 10px;
+  bottom: 7px;
 }
 [data-color-index="0"] path {
   stroke: #66c2a5;
