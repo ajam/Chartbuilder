@@ -15,18 +15,59 @@ $color-editor-text = #333333
 $color-editor-placeholder = #CACACA
 
 $chart-colors = \
+	#66c2a5 \
 	#fc8d62 \
 	#8da0cb \
+	#e78ac3 \
 	#a6d854 \
-	#D99C2C \
-	#66c2a5 \
-	#ffd92f \
 	#e5c494 \
-	#4575b4 \
-	#313695 \
+	#FFF5CC \
+	#FFEB99 \
+	#FFDE5C \
+	#FFCC00 \
+	#CCA300 \
+	#997A00 \
+	#F7EBD5 \
+	#ECCE96 \
+	#E4BA6B \
+	#D99C2C \
+	#986D1F \
+	#573E12 \
+	#F9DBD6 \
+	#ED9283 \
+	#E14A31 \
+	#B43B27 \
+	#872C1D \
+	#44160F \
+	#EBF2F5 \
+	#9AC0CE \
+	#5E9BB1 \
+	#36829E \
+	#265B6F \
+	#10272F \
+	#E9F1F8 \
+	#A7C7E4 \
+	#649CCF \
+	#2272BB \
+	#185083 \
+	#0A2238 \
+	#E3E2EA \
+	#BAB8CC \
+	#9E9BB7 \
+	#747098 \
+	#514C7E \
+	#261F5E \
 	#999 \
 	#666 \
-	#ccc
+	#ccc 
+		
+// Add custom sizing and arrow position
+.cb-colorpicker-els
+	width 260px
+	top -310px
+	&.active::after
+		top auto
+		bottom 7px
 
 for c, i in $chart-colors
 	[data-color-index=\"{i}\"]

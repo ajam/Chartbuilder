@@ -1,517 +1,1944 @@
+.cb-colorpicker-els {
+  width: 260px;
+  top: -310px;
+}
+.cb-colorpicker-els.active::after {
+  top: auto;
+  bottom: 10px;
+}
 [data-color-index="0"] path {
-  stroke: #fc8d62;
+  stroke: #66c2a5;
 }
 [data-color-index="0"] rect {
-  fill: #fc8d62;
+  fill: #66c2a5;
 }
 [data-color-index="0"] circle {
-  stroke: #fc8d62;
+  stroke: #66c2a5;
   stroke-width: 2px;
-  fill: #fc8d62;
+  fill: #66c2a5;
 }
 .color-index-0 {
-  fill: #fc8d62;
+  fill: #66c2a5;
 }
 rect[data-color-index="0"] {
-  fill: #fc8d62;
+  fill: #66c2a5;
 }
 text[data-color-index="0"] {
-  fill: #fc8d62;
+  fill: #66c2a5;
 }
 .d4 .axis .tick text[data-color-index="0"] {
-  fill: #fc8d62;
+  fill: #66c2a5;
 }
 .cb-colorpicker-color-0 {
-  background-color: #fc8d62;
+  background-color: #66c2a5;
 }
 .series-label-0 {
-  color: #fc8d62;
+  color: #66c2a5;
 }
 .series-label-input-0 {
-  border-bottom: 2px solid #fc8d62;
+  border-bottom: 2px solid #66c2a5;
 }
 .series-label-input-0:hover,
 .series-label-input-0:focus {
   border: none;
-  border-bottom: 2px solid #fc8d62;
+  border-bottom: 2px solid #66c2a5;
 }
 .series-label-input-0 input {
-  color: #fc8d62;
+  color: #66c2a5;
 }
 .cb-toggle.toggled.toggle-0 .cb-toggle-container {
-  background-color: #fc8d62;
+  background-color: #66c2a5;
 }
 [data-color-index="1"] path {
-  stroke: #8da0cb;
+  stroke: #fc8d62;
 }
 [data-color-index="1"] rect {
-  fill: #8da0cb;
+  fill: #fc8d62;
 }
 [data-color-index="1"] circle {
-  stroke: #8da0cb;
+  stroke: #fc8d62;
   stroke-width: 2px;
-  fill: #8da0cb;
+  fill: #fc8d62;
 }
 .color-index-1 {
-  fill: #8da0cb;
+  fill: #fc8d62;
 }
 rect[data-color-index="1"] {
-  fill: #8da0cb;
+  fill: #fc8d62;
 }
 text[data-color-index="1"] {
-  fill: #8da0cb;
+  fill: #fc8d62;
 }
 .d4 .axis .tick text[data-color-index="1"] {
-  fill: #8da0cb;
+  fill: #fc8d62;
 }
 .cb-colorpicker-color-1 {
-  background-color: #8da0cb;
+  background-color: #fc8d62;
 }
 .series-label-1 {
-  color: #8da0cb;
+  color: #fc8d62;
 }
 .series-label-input-1 {
-  border-bottom: 2px solid #8da0cb;
+  border-bottom: 2px solid #fc8d62;
 }
 .series-label-input-1:hover,
 .series-label-input-1:focus {
   border: none;
-  border-bottom: 2px solid #8da0cb;
+  border-bottom: 2px solid #fc8d62;
 }
 .series-label-input-1 input {
-  color: #8da0cb;
+  color: #fc8d62;
 }
 .cb-toggle.toggled.toggle-1 .cb-toggle-container {
-  background-color: #8da0cb;
+  background-color: #fc8d62;
 }
 [data-color-index="2"] path {
-  stroke: #a6d854;
+  stroke: #8da0cb;
 }
 [data-color-index="2"] rect {
-  fill: #a6d854;
+  fill: #8da0cb;
 }
 [data-color-index="2"] circle {
-  stroke: #a6d854;
+  stroke: #8da0cb;
   stroke-width: 2px;
-  fill: #a6d854;
+  fill: #8da0cb;
 }
 .color-index-2 {
-  fill: #a6d854;
+  fill: #8da0cb;
 }
 rect[data-color-index="2"] {
-  fill: #a6d854;
+  fill: #8da0cb;
 }
 text[data-color-index="2"] {
-  fill: #a6d854;
+  fill: #8da0cb;
 }
 .d4 .axis .tick text[data-color-index="2"] {
-  fill: #a6d854;
+  fill: #8da0cb;
 }
 .cb-colorpicker-color-2 {
-  background-color: #a6d854;
+  background-color: #8da0cb;
 }
 .series-label-2 {
-  color: #a6d854;
+  color: #8da0cb;
 }
 .series-label-input-2 {
-  border-bottom: 2px solid #a6d854;
+  border-bottom: 2px solid #8da0cb;
 }
 .series-label-input-2:hover,
 .series-label-input-2:focus {
   border: none;
-  border-bottom: 2px solid #a6d854;
+  border-bottom: 2px solid #8da0cb;
 }
 .series-label-input-2 input {
-  color: #a6d854;
+  color: #8da0cb;
 }
 .cb-toggle.toggled.toggle-2 .cb-toggle-container {
-  background-color: #a6d854;
+  background-color: #8da0cb;
 }
 [data-color-index="3"] path {
-  stroke: #d99c2c;
+  stroke: #e78ac3;
 }
 [data-color-index="3"] rect {
-  fill: #d99c2c;
+  fill: #e78ac3;
 }
 [data-color-index="3"] circle {
-  stroke: #d99c2c;
+  stroke: #e78ac3;
   stroke-width: 2px;
-  fill: #d99c2c;
+  fill: #e78ac3;
 }
 .color-index-3 {
-  fill: #d99c2c;
+  fill: #e78ac3;
 }
 rect[data-color-index="3"] {
-  fill: #d99c2c;
+  fill: #e78ac3;
 }
 text[data-color-index="3"] {
-  fill: #d99c2c;
+  fill: #e78ac3;
 }
 .d4 .axis .tick text[data-color-index="3"] {
-  fill: #d99c2c;
+  fill: #e78ac3;
 }
 .cb-colorpicker-color-3 {
-  background-color: #d99c2c;
+  background-color: #e78ac3;
 }
 .series-label-3 {
-  color: #d99c2c;
+  color: #e78ac3;
 }
 .series-label-input-3 {
-  border-bottom: 2px solid #d99c2c;
+  border-bottom: 2px solid #e78ac3;
 }
 .series-label-input-3:hover,
 .series-label-input-3:focus {
   border: none;
-  border-bottom: 2px solid #d99c2c;
+  border-bottom: 2px solid #e78ac3;
 }
 .series-label-input-3 input {
-  color: #d99c2c;
+  color: #e78ac3;
 }
 .cb-toggle.toggled.toggle-3 .cb-toggle-container {
-  background-color: #d99c2c;
+  background-color: #e78ac3;
 }
 [data-color-index="4"] path {
-  stroke: #66c2a5;
+  stroke: #a6d854;
 }
 [data-color-index="4"] rect {
-  fill: #66c2a5;
+  fill: #a6d854;
 }
 [data-color-index="4"] circle {
-  stroke: #66c2a5;
+  stroke: #a6d854;
   stroke-width: 2px;
-  fill: #66c2a5;
+  fill: #a6d854;
 }
 .color-index-4 {
-  fill: #66c2a5;
+  fill: #a6d854;
 }
 rect[data-color-index="4"] {
-  fill: #66c2a5;
+  fill: #a6d854;
 }
 text[data-color-index="4"] {
-  fill: #66c2a5;
+  fill: #a6d854;
 }
 .d4 .axis .tick text[data-color-index="4"] {
-  fill: #66c2a5;
+  fill: #a6d854;
 }
 .cb-colorpicker-color-4 {
-  background-color: #66c2a5;
+  background-color: #a6d854;
 }
 .series-label-4 {
-  color: #66c2a5;
+  color: #a6d854;
 }
 .series-label-input-4 {
-  border-bottom: 2px solid #66c2a5;
+  border-bottom: 2px solid #a6d854;
 }
 .series-label-input-4:hover,
 .series-label-input-4:focus {
   border: none;
-  border-bottom: 2px solid #66c2a5;
+  border-bottom: 2px solid #a6d854;
 }
 .series-label-input-4 input {
-  color: #66c2a5;
+  color: #a6d854;
 }
 .cb-toggle.toggled.toggle-4 .cb-toggle-container {
-  background-color: #66c2a5;
+  background-color: #a6d854;
 }
 [data-color-index="5"] path {
-  stroke: #ffd92f;
+  stroke: #e5c494;
 }
 [data-color-index="5"] rect {
-  fill: #ffd92f;
+  fill: #e5c494;
 }
 [data-color-index="5"] circle {
-  stroke: #ffd92f;
+  stroke: #e5c494;
   stroke-width: 2px;
-  fill: #ffd92f;
+  fill: #e5c494;
 }
 .color-index-5 {
-  fill: #ffd92f;
+  fill: #e5c494;
 }
 rect[data-color-index="5"] {
-  fill: #ffd92f;
+  fill: #e5c494;
 }
 text[data-color-index="5"] {
-  fill: #ffd92f;
+  fill: #e5c494;
 }
 .d4 .axis .tick text[data-color-index="5"] {
-  fill: #ffd92f;
+  fill: #e5c494;
 }
 .cb-colorpicker-color-5 {
-  background-color: #ffd92f;
+  background-color: #e5c494;
 }
 .series-label-5 {
-  color: #ffd92f;
+  color: #e5c494;
 }
 .series-label-input-5 {
-  border-bottom: 2px solid #ffd92f;
+  border-bottom: 2px solid #e5c494;
 }
 .series-label-input-5:hover,
 .series-label-input-5:focus {
   border: none;
-  border-bottom: 2px solid #ffd92f;
+  border-bottom: 2px solid #e5c494;
 }
 .series-label-input-5 input {
-  color: #ffd92f;
-}
-.cb-toggle.toggled.toggle-5 .cb-toggle-container {
-  background-color: #ffd92f;
-}
-[data-color-index="6"] path {
-  stroke: #e5c494;
-}
-[data-color-index="6"] rect {
-  fill: #e5c494;
-}
-[data-color-index="6"] circle {
-  stroke: #e5c494;
-  stroke-width: 2px;
-  fill: #e5c494;
-}
-.color-index-6 {
-  fill: #e5c494;
-}
-rect[data-color-index="6"] {
-  fill: #e5c494;
-}
-text[data-color-index="6"] {
-  fill: #e5c494;
-}
-.d4 .axis .tick text[data-color-index="6"] {
-  fill: #e5c494;
-}
-.cb-colorpicker-color-6 {
-  background-color: #e5c494;
-}
-.series-label-6 {
   color: #e5c494;
 }
+.cb-toggle.toggled.toggle-5 .cb-toggle-container {
+  background-color: #e5c494;
+}
+[data-color-index="6"] path {
+  stroke: #fff5cc;
+}
+[data-color-index="6"] rect {
+  fill: #fff5cc;
+}
+[data-color-index="6"] circle {
+  stroke: #fff5cc;
+  stroke-width: 2px;
+  fill: #fff5cc;
+}
+.color-index-6 {
+  fill: #fff5cc;
+}
+rect[data-color-index="6"] {
+  fill: #fff5cc;
+}
+text[data-color-index="6"] {
+  fill: #fff5cc;
+}
+.d4 .axis .tick text[data-color-index="6"] {
+  fill: #fff5cc;
+}
+.cb-colorpicker-color-6 {
+  background-color: #fff5cc;
+}
+.series-label-6 {
+  color: #fff5cc;
+}
 .series-label-input-6 {
-  border-bottom: 2px solid #e5c494;
+  border-bottom: 2px solid #fff5cc;
 }
 .series-label-input-6:hover,
 .series-label-input-6:focus {
   border: none;
-  border-bottom: 2px solid #e5c494;
+  border-bottom: 2px solid #fff5cc;
 }
 .series-label-input-6 input {
-  color: #e5c494;
+  color: #fff5cc;
 }
 .cb-toggle.toggled.toggle-6 .cb-toggle-container {
-  background-color: #e5c494;
+  background-color: #fff5cc;
 }
 [data-color-index="7"] path {
-  stroke: #4575b4;
+  stroke: #ffeb99;
 }
 [data-color-index="7"] rect {
-  fill: #4575b4;
+  fill: #ffeb99;
 }
 [data-color-index="7"] circle {
-  stroke: #4575b4;
+  stroke: #ffeb99;
   stroke-width: 2px;
-  fill: #4575b4;
+  fill: #ffeb99;
 }
 .color-index-7 {
-  fill: #4575b4;
+  fill: #ffeb99;
 }
 rect[data-color-index="7"] {
-  fill: #4575b4;
+  fill: #ffeb99;
 }
 text[data-color-index="7"] {
-  fill: #4575b4;
+  fill: #ffeb99;
 }
 .d4 .axis .tick text[data-color-index="7"] {
-  fill: #4575b4;
+  fill: #ffeb99;
 }
 .cb-colorpicker-color-7 {
-  background-color: #4575b4;
+  background-color: #ffeb99;
 }
 .series-label-7 {
-  color: #4575b4;
+  color: #ffeb99;
 }
 .series-label-input-7 {
-  border-bottom: 2px solid #4575b4;
+  border-bottom: 2px solid #ffeb99;
 }
 .series-label-input-7:hover,
 .series-label-input-7:focus {
   border: none;
-  border-bottom: 2px solid #4575b4;
+  border-bottom: 2px solid #ffeb99;
 }
 .series-label-input-7 input {
-  color: #4575b4;
+  color: #ffeb99;
 }
 .cb-toggle.toggled.toggle-7 .cb-toggle-container {
-  background-color: #4575b4;
+  background-color: #ffeb99;
 }
 [data-color-index="8"] path {
-  stroke: #313695;
+  stroke: #ffde5c;
 }
 [data-color-index="8"] rect {
-  fill: #313695;
+  fill: #ffde5c;
 }
 [data-color-index="8"] circle {
-  stroke: #313695;
+  stroke: #ffde5c;
   stroke-width: 2px;
-  fill: #313695;
+  fill: #ffde5c;
 }
 .color-index-8 {
-  fill: #313695;
+  fill: #ffde5c;
 }
 rect[data-color-index="8"] {
-  fill: #313695;
+  fill: #ffde5c;
 }
 text[data-color-index="8"] {
-  fill: #313695;
+  fill: #ffde5c;
 }
 .d4 .axis .tick text[data-color-index="8"] {
-  fill: #313695;
+  fill: #ffde5c;
 }
 .cb-colorpicker-color-8 {
-  background-color: #313695;
+  background-color: #ffde5c;
 }
 .series-label-8 {
-  color: #313695;
+  color: #ffde5c;
 }
 .series-label-input-8 {
-  border-bottom: 2px solid #313695;
+  border-bottom: 2px solid #ffde5c;
 }
 .series-label-input-8:hover,
 .series-label-input-8:focus {
   border: none;
-  border-bottom: 2px solid #313695;
+  border-bottom: 2px solid #ffde5c;
 }
 .series-label-input-8 input {
-  color: #313695;
+  color: #ffde5c;
 }
 .cb-toggle.toggled.toggle-8 .cb-toggle-container {
-  background-color: #313695;
+  background-color: #ffde5c;
 }
 [data-color-index="9"] path {
-  stroke: #999;
+  stroke: #fc0;
 }
 [data-color-index="9"] rect {
-  fill: #999;
+  fill: #fc0;
 }
 [data-color-index="9"] circle {
-  stroke: #999;
+  stroke: #fc0;
   stroke-width: 2px;
-  fill: #999;
+  fill: #fc0;
 }
 .color-index-9 {
-  fill: #999;
+  fill: #fc0;
 }
 rect[data-color-index="9"] {
-  fill: #999;
+  fill: #fc0;
 }
 text[data-color-index="9"] {
-  fill: #999;
+  fill: #fc0;
 }
 .d4 .axis .tick text[data-color-index="9"] {
-  fill: #999;
+  fill: #fc0;
 }
 .cb-colorpicker-color-9 {
-  background-color: #999;
+  background-color: #fc0;
 }
 .series-label-9 {
-  color: #999;
+  color: #fc0;
 }
 .series-label-input-9 {
-  border-bottom: 2px solid #999;
+  border-bottom: 2px solid #fc0;
 }
 .series-label-input-9:hover,
 .series-label-input-9:focus {
   border: none;
-  border-bottom: 2px solid #999;
+  border-bottom: 2px solid #fc0;
 }
 .series-label-input-9 input {
-  color: #999;
+  color: #fc0;
 }
 .cb-toggle.toggled.toggle-9 .cb-toggle-container {
-  background-color: #999;
+  background-color: #fc0;
 }
 [data-color-index="10"] path {
-  stroke: #666;
+  stroke: #cca300;
 }
 [data-color-index="10"] rect {
-  fill: #666;
+  fill: #cca300;
 }
 [data-color-index="10"] circle {
-  stroke: #666;
+  stroke: #cca300;
   stroke-width: 2px;
-  fill: #666;
+  fill: #cca300;
 }
 .color-index-10 {
-  fill: #666;
+  fill: #cca300;
 }
 rect[data-color-index="10"] {
-  fill: #666;
+  fill: #cca300;
 }
 text[data-color-index="10"] {
-  fill: #666;
+  fill: #cca300;
 }
 .d4 .axis .tick text[data-color-index="10"] {
-  fill: #666;
+  fill: #cca300;
 }
 .cb-colorpicker-color-10 {
-  background-color: #666;
+  background-color: #cca300;
 }
 .series-label-10 {
-  color: #666;
+  color: #cca300;
 }
 .series-label-input-10 {
-  border-bottom: 2px solid #666;
+  border-bottom: 2px solid #cca300;
 }
 .series-label-input-10:hover,
 .series-label-input-10:focus {
   border: none;
-  border-bottom: 2px solid #666;
+  border-bottom: 2px solid #cca300;
 }
 .series-label-input-10 input {
-  color: #666;
+  color: #cca300;
 }
 .cb-toggle.toggled.toggle-10 .cb-toggle-container {
-  background-color: #666;
+  background-color: #cca300;
 }
 [data-color-index="11"] path {
-  stroke: #ccc;
+  stroke: #997a00;
 }
 [data-color-index="11"] rect {
-  fill: #ccc;
+  fill: #997a00;
 }
 [data-color-index="11"] circle {
-  stroke: #ccc;
+  stroke: #997a00;
   stroke-width: 2px;
-  fill: #ccc;
+  fill: #997a00;
 }
 .color-index-11 {
-  fill: #ccc;
+  fill: #997a00;
 }
 rect[data-color-index="11"] {
-  fill: #ccc;
+  fill: #997a00;
 }
 text[data-color-index="11"] {
-  fill: #ccc;
+  fill: #997a00;
 }
 .d4 .axis .tick text[data-color-index="11"] {
-  fill: #ccc;
+  fill: #997a00;
 }
 .cb-colorpicker-color-11 {
-  background-color: #ccc;
+  background-color: #997a00;
 }
 .series-label-11 {
-  color: #ccc;
+  color: #997a00;
 }
 .series-label-input-11 {
-  border-bottom: 2px solid #ccc;
+  border-bottom: 2px solid #997a00;
 }
 .series-label-input-11:hover,
 .series-label-input-11:focus {
   border: none;
-  border-bottom: 2px solid #ccc;
+  border-bottom: 2px solid #997a00;
 }
 .series-label-input-11 input {
-  color: #ccc;
+  color: #997a00;
 }
 .cb-toggle.toggled.toggle-11 .cb-toggle-container {
+  background-color: #997a00;
+}
+[data-color-index="12"] path {
+  stroke: #f7ebd5;
+}
+[data-color-index="12"] rect {
+  fill: #f7ebd5;
+}
+[data-color-index="12"] circle {
+  stroke: #f7ebd5;
+  stroke-width: 2px;
+  fill: #f7ebd5;
+}
+.color-index-12 {
+  fill: #f7ebd5;
+}
+rect[data-color-index="12"] {
+  fill: #f7ebd5;
+}
+text[data-color-index="12"] {
+  fill: #f7ebd5;
+}
+.d4 .axis .tick text[data-color-index="12"] {
+  fill: #f7ebd5;
+}
+.cb-colorpicker-color-12 {
+  background-color: #f7ebd5;
+}
+.series-label-12 {
+  color: #f7ebd5;
+}
+.series-label-input-12 {
+  border-bottom: 2px solid #f7ebd5;
+}
+.series-label-input-12:hover,
+.series-label-input-12:focus {
+  border: none;
+  border-bottom: 2px solid #f7ebd5;
+}
+.series-label-input-12 input {
+  color: #f7ebd5;
+}
+.cb-toggle.toggled.toggle-12 .cb-toggle-container {
+  background-color: #f7ebd5;
+}
+[data-color-index="13"] path {
+  stroke: #ecce96;
+}
+[data-color-index="13"] rect {
+  fill: #ecce96;
+}
+[data-color-index="13"] circle {
+  stroke: #ecce96;
+  stroke-width: 2px;
+  fill: #ecce96;
+}
+.color-index-13 {
+  fill: #ecce96;
+}
+rect[data-color-index="13"] {
+  fill: #ecce96;
+}
+text[data-color-index="13"] {
+  fill: #ecce96;
+}
+.d4 .axis .tick text[data-color-index="13"] {
+  fill: #ecce96;
+}
+.cb-colorpicker-color-13 {
+  background-color: #ecce96;
+}
+.series-label-13 {
+  color: #ecce96;
+}
+.series-label-input-13 {
+  border-bottom: 2px solid #ecce96;
+}
+.series-label-input-13:hover,
+.series-label-input-13:focus {
+  border: none;
+  border-bottom: 2px solid #ecce96;
+}
+.series-label-input-13 input {
+  color: #ecce96;
+}
+.cb-toggle.toggled.toggle-13 .cb-toggle-container {
+  background-color: #ecce96;
+}
+[data-color-index="14"] path {
+  stroke: #e4ba6b;
+}
+[data-color-index="14"] rect {
+  fill: #e4ba6b;
+}
+[data-color-index="14"] circle {
+  stroke: #e4ba6b;
+  stroke-width: 2px;
+  fill: #e4ba6b;
+}
+.color-index-14 {
+  fill: #e4ba6b;
+}
+rect[data-color-index="14"] {
+  fill: #e4ba6b;
+}
+text[data-color-index="14"] {
+  fill: #e4ba6b;
+}
+.d4 .axis .tick text[data-color-index="14"] {
+  fill: #e4ba6b;
+}
+.cb-colorpicker-color-14 {
+  background-color: #e4ba6b;
+}
+.series-label-14 {
+  color: #e4ba6b;
+}
+.series-label-input-14 {
+  border-bottom: 2px solid #e4ba6b;
+}
+.series-label-input-14:hover,
+.series-label-input-14:focus {
+  border: none;
+  border-bottom: 2px solid #e4ba6b;
+}
+.series-label-input-14 input {
+  color: #e4ba6b;
+}
+.cb-toggle.toggled.toggle-14 .cb-toggle-container {
+  background-color: #e4ba6b;
+}
+[data-color-index="15"] path {
+  stroke: #d99c2c;
+}
+[data-color-index="15"] rect {
+  fill: #d99c2c;
+}
+[data-color-index="15"] circle {
+  stroke: #d99c2c;
+  stroke-width: 2px;
+  fill: #d99c2c;
+}
+.color-index-15 {
+  fill: #d99c2c;
+}
+rect[data-color-index="15"] {
+  fill: #d99c2c;
+}
+text[data-color-index="15"] {
+  fill: #d99c2c;
+}
+.d4 .axis .tick text[data-color-index="15"] {
+  fill: #d99c2c;
+}
+.cb-colorpicker-color-15 {
+  background-color: #d99c2c;
+}
+.series-label-15 {
+  color: #d99c2c;
+}
+.series-label-input-15 {
+  border-bottom: 2px solid #d99c2c;
+}
+.series-label-input-15:hover,
+.series-label-input-15:focus {
+  border: none;
+  border-bottom: 2px solid #d99c2c;
+}
+.series-label-input-15 input {
+  color: #d99c2c;
+}
+.cb-toggle.toggled.toggle-15 .cb-toggle-container {
+  background-color: #d99c2c;
+}
+[data-color-index="16"] path {
+  stroke: #986d1f;
+}
+[data-color-index="16"] rect {
+  fill: #986d1f;
+}
+[data-color-index="16"] circle {
+  stroke: #986d1f;
+  stroke-width: 2px;
+  fill: #986d1f;
+}
+.color-index-16 {
+  fill: #986d1f;
+}
+rect[data-color-index="16"] {
+  fill: #986d1f;
+}
+text[data-color-index="16"] {
+  fill: #986d1f;
+}
+.d4 .axis .tick text[data-color-index="16"] {
+  fill: #986d1f;
+}
+.cb-colorpicker-color-16 {
+  background-color: #986d1f;
+}
+.series-label-16 {
+  color: #986d1f;
+}
+.series-label-input-16 {
+  border-bottom: 2px solid #986d1f;
+}
+.series-label-input-16:hover,
+.series-label-input-16:focus {
+  border: none;
+  border-bottom: 2px solid #986d1f;
+}
+.series-label-input-16 input {
+  color: #986d1f;
+}
+.cb-toggle.toggled.toggle-16 .cb-toggle-container {
+  background-color: #986d1f;
+}
+[data-color-index="17"] path {
+  stroke: #573e12;
+}
+[data-color-index="17"] rect {
+  fill: #573e12;
+}
+[data-color-index="17"] circle {
+  stroke: #573e12;
+  stroke-width: 2px;
+  fill: #573e12;
+}
+.color-index-17 {
+  fill: #573e12;
+}
+rect[data-color-index="17"] {
+  fill: #573e12;
+}
+text[data-color-index="17"] {
+  fill: #573e12;
+}
+.d4 .axis .tick text[data-color-index="17"] {
+  fill: #573e12;
+}
+.cb-colorpicker-color-17 {
+  background-color: #573e12;
+}
+.series-label-17 {
+  color: #573e12;
+}
+.series-label-input-17 {
+  border-bottom: 2px solid #573e12;
+}
+.series-label-input-17:hover,
+.series-label-input-17:focus {
+  border: none;
+  border-bottom: 2px solid #573e12;
+}
+.series-label-input-17 input {
+  color: #573e12;
+}
+.cb-toggle.toggled.toggle-17 .cb-toggle-container {
+  background-color: #573e12;
+}
+[data-color-index="18"] path {
+  stroke: #f9dbd6;
+}
+[data-color-index="18"] rect {
+  fill: #f9dbd6;
+}
+[data-color-index="18"] circle {
+  stroke: #f9dbd6;
+  stroke-width: 2px;
+  fill: #f9dbd6;
+}
+.color-index-18 {
+  fill: #f9dbd6;
+}
+rect[data-color-index="18"] {
+  fill: #f9dbd6;
+}
+text[data-color-index="18"] {
+  fill: #f9dbd6;
+}
+.d4 .axis .tick text[data-color-index="18"] {
+  fill: #f9dbd6;
+}
+.cb-colorpicker-color-18 {
+  background-color: #f9dbd6;
+}
+.series-label-18 {
+  color: #f9dbd6;
+}
+.series-label-input-18 {
+  border-bottom: 2px solid #f9dbd6;
+}
+.series-label-input-18:hover,
+.series-label-input-18:focus {
+  border: none;
+  border-bottom: 2px solid #f9dbd6;
+}
+.series-label-input-18 input {
+  color: #f9dbd6;
+}
+.cb-toggle.toggled.toggle-18 .cb-toggle-container {
+  background-color: #f9dbd6;
+}
+[data-color-index="19"] path {
+  stroke: #ed9283;
+}
+[data-color-index="19"] rect {
+  fill: #ed9283;
+}
+[data-color-index="19"] circle {
+  stroke: #ed9283;
+  stroke-width: 2px;
+  fill: #ed9283;
+}
+.color-index-19 {
+  fill: #ed9283;
+}
+rect[data-color-index="19"] {
+  fill: #ed9283;
+}
+text[data-color-index="19"] {
+  fill: #ed9283;
+}
+.d4 .axis .tick text[data-color-index="19"] {
+  fill: #ed9283;
+}
+.cb-colorpicker-color-19 {
+  background-color: #ed9283;
+}
+.series-label-19 {
+  color: #ed9283;
+}
+.series-label-input-19 {
+  border-bottom: 2px solid #ed9283;
+}
+.series-label-input-19:hover,
+.series-label-input-19:focus {
+  border: none;
+  border-bottom: 2px solid #ed9283;
+}
+.series-label-input-19 input {
+  color: #ed9283;
+}
+.cb-toggle.toggled.toggle-19 .cb-toggle-container {
+  background-color: #ed9283;
+}
+[data-color-index="20"] path {
+  stroke: #e14a31;
+}
+[data-color-index="20"] rect {
+  fill: #e14a31;
+}
+[data-color-index="20"] circle {
+  stroke: #e14a31;
+  stroke-width: 2px;
+  fill: #e14a31;
+}
+.color-index-20 {
+  fill: #e14a31;
+}
+rect[data-color-index="20"] {
+  fill: #e14a31;
+}
+text[data-color-index="20"] {
+  fill: #e14a31;
+}
+.d4 .axis .tick text[data-color-index="20"] {
+  fill: #e14a31;
+}
+.cb-colorpicker-color-20 {
+  background-color: #e14a31;
+}
+.series-label-20 {
+  color: #e14a31;
+}
+.series-label-input-20 {
+  border-bottom: 2px solid #e14a31;
+}
+.series-label-input-20:hover,
+.series-label-input-20:focus {
+  border: none;
+  border-bottom: 2px solid #e14a31;
+}
+.series-label-input-20 input {
+  color: #e14a31;
+}
+.cb-toggle.toggled.toggle-20 .cb-toggle-container {
+  background-color: #e14a31;
+}
+[data-color-index="21"] path {
+  stroke: #b43b27;
+}
+[data-color-index="21"] rect {
+  fill: #b43b27;
+}
+[data-color-index="21"] circle {
+  stroke: #b43b27;
+  stroke-width: 2px;
+  fill: #b43b27;
+}
+.color-index-21 {
+  fill: #b43b27;
+}
+rect[data-color-index="21"] {
+  fill: #b43b27;
+}
+text[data-color-index="21"] {
+  fill: #b43b27;
+}
+.d4 .axis .tick text[data-color-index="21"] {
+  fill: #b43b27;
+}
+.cb-colorpicker-color-21 {
+  background-color: #b43b27;
+}
+.series-label-21 {
+  color: #b43b27;
+}
+.series-label-input-21 {
+  border-bottom: 2px solid #b43b27;
+}
+.series-label-input-21:hover,
+.series-label-input-21:focus {
+  border: none;
+  border-bottom: 2px solid #b43b27;
+}
+.series-label-input-21 input {
+  color: #b43b27;
+}
+.cb-toggle.toggled.toggle-21 .cb-toggle-container {
+  background-color: #b43b27;
+}
+[data-color-index="22"] path {
+  stroke: #872c1d;
+}
+[data-color-index="22"] rect {
+  fill: #872c1d;
+}
+[data-color-index="22"] circle {
+  stroke: #872c1d;
+  stroke-width: 2px;
+  fill: #872c1d;
+}
+.color-index-22 {
+  fill: #872c1d;
+}
+rect[data-color-index="22"] {
+  fill: #872c1d;
+}
+text[data-color-index="22"] {
+  fill: #872c1d;
+}
+.d4 .axis .tick text[data-color-index="22"] {
+  fill: #872c1d;
+}
+.cb-colorpicker-color-22 {
+  background-color: #872c1d;
+}
+.series-label-22 {
+  color: #872c1d;
+}
+.series-label-input-22 {
+  border-bottom: 2px solid #872c1d;
+}
+.series-label-input-22:hover,
+.series-label-input-22:focus {
+  border: none;
+  border-bottom: 2px solid #872c1d;
+}
+.series-label-input-22 input {
+  color: #872c1d;
+}
+.cb-toggle.toggled.toggle-22 .cb-toggle-container {
+  background-color: #872c1d;
+}
+[data-color-index="23"] path {
+  stroke: #44160f;
+}
+[data-color-index="23"] rect {
+  fill: #44160f;
+}
+[data-color-index="23"] circle {
+  stroke: #44160f;
+  stroke-width: 2px;
+  fill: #44160f;
+}
+.color-index-23 {
+  fill: #44160f;
+}
+rect[data-color-index="23"] {
+  fill: #44160f;
+}
+text[data-color-index="23"] {
+  fill: #44160f;
+}
+.d4 .axis .tick text[data-color-index="23"] {
+  fill: #44160f;
+}
+.cb-colorpicker-color-23 {
+  background-color: #44160f;
+}
+.series-label-23 {
+  color: #44160f;
+}
+.series-label-input-23 {
+  border-bottom: 2px solid #44160f;
+}
+.series-label-input-23:hover,
+.series-label-input-23:focus {
+  border: none;
+  border-bottom: 2px solid #44160f;
+}
+.series-label-input-23 input {
+  color: #44160f;
+}
+.cb-toggle.toggled.toggle-23 .cb-toggle-container {
+  background-color: #44160f;
+}
+[data-color-index="24"] path {
+  stroke: #ebf2f5;
+}
+[data-color-index="24"] rect {
+  fill: #ebf2f5;
+}
+[data-color-index="24"] circle {
+  stroke: #ebf2f5;
+  stroke-width: 2px;
+  fill: #ebf2f5;
+}
+.color-index-24 {
+  fill: #ebf2f5;
+}
+rect[data-color-index="24"] {
+  fill: #ebf2f5;
+}
+text[data-color-index="24"] {
+  fill: #ebf2f5;
+}
+.d4 .axis .tick text[data-color-index="24"] {
+  fill: #ebf2f5;
+}
+.cb-colorpicker-color-24 {
+  background-color: #ebf2f5;
+}
+.series-label-24 {
+  color: #ebf2f5;
+}
+.series-label-input-24 {
+  border-bottom: 2px solid #ebf2f5;
+}
+.series-label-input-24:hover,
+.series-label-input-24:focus {
+  border: none;
+  border-bottom: 2px solid #ebf2f5;
+}
+.series-label-input-24 input {
+  color: #ebf2f5;
+}
+.cb-toggle.toggled.toggle-24 .cb-toggle-container {
+  background-color: #ebf2f5;
+}
+[data-color-index="25"] path {
+  stroke: #9ac0ce;
+}
+[data-color-index="25"] rect {
+  fill: #9ac0ce;
+}
+[data-color-index="25"] circle {
+  stroke: #9ac0ce;
+  stroke-width: 2px;
+  fill: #9ac0ce;
+}
+.color-index-25 {
+  fill: #9ac0ce;
+}
+rect[data-color-index="25"] {
+  fill: #9ac0ce;
+}
+text[data-color-index="25"] {
+  fill: #9ac0ce;
+}
+.d4 .axis .tick text[data-color-index="25"] {
+  fill: #9ac0ce;
+}
+.cb-colorpicker-color-25 {
+  background-color: #9ac0ce;
+}
+.series-label-25 {
+  color: #9ac0ce;
+}
+.series-label-input-25 {
+  border-bottom: 2px solid #9ac0ce;
+}
+.series-label-input-25:hover,
+.series-label-input-25:focus {
+  border: none;
+  border-bottom: 2px solid #9ac0ce;
+}
+.series-label-input-25 input {
+  color: #9ac0ce;
+}
+.cb-toggle.toggled.toggle-25 .cb-toggle-container {
+  background-color: #9ac0ce;
+}
+[data-color-index="26"] path {
+  stroke: #5e9bb1;
+}
+[data-color-index="26"] rect {
+  fill: #5e9bb1;
+}
+[data-color-index="26"] circle {
+  stroke: #5e9bb1;
+  stroke-width: 2px;
+  fill: #5e9bb1;
+}
+.color-index-26 {
+  fill: #5e9bb1;
+}
+rect[data-color-index="26"] {
+  fill: #5e9bb1;
+}
+text[data-color-index="26"] {
+  fill: #5e9bb1;
+}
+.d4 .axis .tick text[data-color-index="26"] {
+  fill: #5e9bb1;
+}
+.cb-colorpicker-color-26 {
+  background-color: #5e9bb1;
+}
+.series-label-26 {
+  color: #5e9bb1;
+}
+.series-label-input-26 {
+  border-bottom: 2px solid #5e9bb1;
+}
+.series-label-input-26:hover,
+.series-label-input-26:focus {
+  border: none;
+  border-bottom: 2px solid #5e9bb1;
+}
+.series-label-input-26 input {
+  color: #5e9bb1;
+}
+.cb-toggle.toggled.toggle-26 .cb-toggle-container {
+  background-color: #5e9bb1;
+}
+[data-color-index="27"] path {
+  stroke: #36829e;
+}
+[data-color-index="27"] rect {
+  fill: #36829e;
+}
+[data-color-index="27"] circle {
+  stroke: #36829e;
+  stroke-width: 2px;
+  fill: #36829e;
+}
+.color-index-27 {
+  fill: #36829e;
+}
+rect[data-color-index="27"] {
+  fill: #36829e;
+}
+text[data-color-index="27"] {
+  fill: #36829e;
+}
+.d4 .axis .tick text[data-color-index="27"] {
+  fill: #36829e;
+}
+.cb-colorpicker-color-27 {
+  background-color: #36829e;
+}
+.series-label-27 {
+  color: #36829e;
+}
+.series-label-input-27 {
+  border-bottom: 2px solid #36829e;
+}
+.series-label-input-27:hover,
+.series-label-input-27:focus {
+  border: none;
+  border-bottom: 2px solid #36829e;
+}
+.series-label-input-27 input {
+  color: #36829e;
+}
+.cb-toggle.toggled.toggle-27 .cb-toggle-container {
+  background-color: #36829e;
+}
+[data-color-index="28"] path {
+  stroke: #265b6f;
+}
+[data-color-index="28"] rect {
+  fill: #265b6f;
+}
+[data-color-index="28"] circle {
+  stroke: #265b6f;
+  stroke-width: 2px;
+  fill: #265b6f;
+}
+.color-index-28 {
+  fill: #265b6f;
+}
+rect[data-color-index="28"] {
+  fill: #265b6f;
+}
+text[data-color-index="28"] {
+  fill: #265b6f;
+}
+.d4 .axis .tick text[data-color-index="28"] {
+  fill: #265b6f;
+}
+.cb-colorpicker-color-28 {
+  background-color: #265b6f;
+}
+.series-label-28 {
+  color: #265b6f;
+}
+.series-label-input-28 {
+  border-bottom: 2px solid #265b6f;
+}
+.series-label-input-28:hover,
+.series-label-input-28:focus {
+  border: none;
+  border-bottom: 2px solid #265b6f;
+}
+.series-label-input-28 input {
+  color: #265b6f;
+}
+.cb-toggle.toggled.toggle-28 .cb-toggle-container {
+  background-color: #265b6f;
+}
+[data-color-index="29"] path {
+  stroke: #10272f;
+}
+[data-color-index="29"] rect {
+  fill: #10272f;
+}
+[data-color-index="29"] circle {
+  stroke: #10272f;
+  stroke-width: 2px;
+  fill: #10272f;
+}
+.color-index-29 {
+  fill: #10272f;
+}
+rect[data-color-index="29"] {
+  fill: #10272f;
+}
+text[data-color-index="29"] {
+  fill: #10272f;
+}
+.d4 .axis .tick text[data-color-index="29"] {
+  fill: #10272f;
+}
+.cb-colorpicker-color-29 {
+  background-color: #10272f;
+}
+.series-label-29 {
+  color: #10272f;
+}
+.series-label-input-29 {
+  border-bottom: 2px solid #10272f;
+}
+.series-label-input-29:hover,
+.series-label-input-29:focus {
+  border: none;
+  border-bottom: 2px solid #10272f;
+}
+.series-label-input-29 input {
+  color: #10272f;
+}
+.cb-toggle.toggled.toggle-29 .cb-toggle-container {
+  background-color: #10272f;
+}
+[data-color-index="30"] path {
+  stroke: #e9f1f8;
+}
+[data-color-index="30"] rect {
+  fill: #e9f1f8;
+}
+[data-color-index="30"] circle {
+  stroke: #e9f1f8;
+  stroke-width: 2px;
+  fill: #e9f1f8;
+}
+.color-index-30 {
+  fill: #e9f1f8;
+}
+rect[data-color-index="30"] {
+  fill: #e9f1f8;
+}
+text[data-color-index="30"] {
+  fill: #e9f1f8;
+}
+.d4 .axis .tick text[data-color-index="30"] {
+  fill: #e9f1f8;
+}
+.cb-colorpicker-color-30 {
+  background-color: #e9f1f8;
+}
+.series-label-30 {
+  color: #e9f1f8;
+}
+.series-label-input-30 {
+  border-bottom: 2px solid #e9f1f8;
+}
+.series-label-input-30:hover,
+.series-label-input-30:focus {
+  border: none;
+  border-bottom: 2px solid #e9f1f8;
+}
+.series-label-input-30 input {
+  color: #e9f1f8;
+}
+.cb-toggle.toggled.toggle-30 .cb-toggle-container {
+  background-color: #e9f1f8;
+}
+[data-color-index="31"] path {
+  stroke: #a7c7e4;
+}
+[data-color-index="31"] rect {
+  fill: #a7c7e4;
+}
+[data-color-index="31"] circle {
+  stroke: #a7c7e4;
+  stroke-width: 2px;
+  fill: #a7c7e4;
+}
+.color-index-31 {
+  fill: #a7c7e4;
+}
+rect[data-color-index="31"] {
+  fill: #a7c7e4;
+}
+text[data-color-index="31"] {
+  fill: #a7c7e4;
+}
+.d4 .axis .tick text[data-color-index="31"] {
+  fill: #a7c7e4;
+}
+.cb-colorpicker-color-31 {
+  background-color: #a7c7e4;
+}
+.series-label-31 {
+  color: #a7c7e4;
+}
+.series-label-input-31 {
+  border-bottom: 2px solid #a7c7e4;
+}
+.series-label-input-31:hover,
+.series-label-input-31:focus {
+  border: none;
+  border-bottom: 2px solid #a7c7e4;
+}
+.series-label-input-31 input {
+  color: #a7c7e4;
+}
+.cb-toggle.toggled.toggle-31 .cb-toggle-container {
+  background-color: #a7c7e4;
+}
+[data-color-index="32"] path {
+  stroke: #649ccf;
+}
+[data-color-index="32"] rect {
+  fill: #649ccf;
+}
+[data-color-index="32"] circle {
+  stroke: #649ccf;
+  stroke-width: 2px;
+  fill: #649ccf;
+}
+.color-index-32 {
+  fill: #649ccf;
+}
+rect[data-color-index="32"] {
+  fill: #649ccf;
+}
+text[data-color-index="32"] {
+  fill: #649ccf;
+}
+.d4 .axis .tick text[data-color-index="32"] {
+  fill: #649ccf;
+}
+.cb-colorpicker-color-32 {
+  background-color: #649ccf;
+}
+.series-label-32 {
+  color: #649ccf;
+}
+.series-label-input-32 {
+  border-bottom: 2px solid #649ccf;
+}
+.series-label-input-32:hover,
+.series-label-input-32:focus {
+  border: none;
+  border-bottom: 2px solid #649ccf;
+}
+.series-label-input-32 input {
+  color: #649ccf;
+}
+.cb-toggle.toggled.toggle-32 .cb-toggle-container {
+  background-color: #649ccf;
+}
+[data-color-index="33"] path {
+  stroke: #2272bb;
+}
+[data-color-index="33"] rect {
+  fill: #2272bb;
+}
+[data-color-index="33"] circle {
+  stroke: #2272bb;
+  stroke-width: 2px;
+  fill: #2272bb;
+}
+.color-index-33 {
+  fill: #2272bb;
+}
+rect[data-color-index="33"] {
+  fill: #2272bb;
+}
+text[data-color-index="33"] {
+  fill: #2272bb;
+}
+.d4 .axis .tick text[data-color-index="33"] {
+  fill: #2272bb;
+}
+.cb-colorpicker-color-33 {
+  background-color: #2272bb;
+}
+.series-label-33 {
+  color: #2272bb;
+}
+.series-label-input-33 {
+  border-bottom: 2px solid #2272bb;
+}
+.series-label-input-33:hover,
+.series-label-input-33:focus {
+  border: none;
+  border-bottom: 2px solid #2272bb;
+}
+.series-label-input-33 input {
+  color: #2272bb;
+}
+.cb-toggle.toggled.toggle-33 .cb-toggle-container {
+  background-color: #2272bb;
+}
+[data-color-index="34"] path {
+  stroke: #185083;
+}
+[data-color-index="34"] rect {
+  fill: #185083;
+}
+[data-color-index="34"] circle {
+  stroke: #185083;
+  stroke-width: 2px;
+  fill: #185083;
+}
+.color-index-34 {
+  fill: #185083;
+}
+rect[data-color-index="34"] {
+  fill: #185083;
+}
+text[data-color-index="34"] {
+  fill: #185083;
+}
+.d4 .axis .tick text[data-color-index="34"] {
+  fill: #185083;
+}
+.cb-colorpicker-color-34 {
+  background-color: #185083;
+}
+.series-label-34 {
+  color: #185083;
+}
+.series-label-input-34 {
+  border-bottom: 2px solid #185083;
+}
+.series-label-input-34:hover,
+.series-label-input-34:focus {
+  border: none;
+  border-bottom: 2px solid #185083;
+}
+.series-label-input-34 input {
+  color: #185083;
+}
+.cb-toggle.toggled.toggle-34 .cb-toggle-container {
+  background-color: #185083;
+}
+[data-color-index="35"] path {
+  stroke: #0a2238;
+}
+[data-color-index="35"] rect {
+  fill: #0a2238;
+}
+[data-color-index="35"] circle {
+  stroke: #0a2238;
+  stroke-width: 2px;
+  fill: #0a2238;
+}
+.color-index-35 {
+  fill: #0a2238;
+}
+rect[data-color-index="35"] {
+  fill: #0a2238;
+}
+text[data-color-index="35"] {
+  fill: #0a2238;
+}
+.d4 .axis .tick text[data-color-index="35"] {
+  fill: #0a2238;
+}
+.cb-colorpicker-color-35 {
+  background-color: #0a2238;
+}
+.series-label-35 {
+  color: #0a2238;
+}
+.series-label-input-35 {
+  border-bottom: 2px solid #0a2238;
+}
+.series-label-input-35:hover,
+.series-label-input-35:focus {
+  border: none;
+  border-bottom: 2px solid #0a2238;
+}
+.series-label-input-35 input {
+  color: #0a2238;
+}
+.cb-toggle.toggled.toggle-35 .cb-toggle-container {
+  background-color: #0a2238;
+}
+[data-color-index="36"] path {
+  stroke: #e3e2ea;
+}
+[data-color-index="36"] rect {
+  fill: #e3e2ea;
+}
+[data-color-index="36"] circle {
+  stroke: #e3e2ea;
+  stroke-width: 2px;
+  fill: #e3e2ea;
+}
+.color-index-36 {
+  fill: #e3e2ea;
+}
+rect[data-color-index="36"] {
+  fill: #e3e2ea;
+}
+text[data-color-index="36"] {
+  fill: #e3e2ea;
+}
+.d4 .axis .tick text[data-color-index="36"] {
+  fill: #e3e2ea;
+}
+.cb-colorpicker-color-36 {
+  background-color: #e3e2ea;
+}
+.series-label-36 {
+  color: #e3e2ea;
+}
+.series-label-input-36 {
+  border-bottom: 2px solid #e3e2ea;
+}
+.series-label-input-36:hover,
+.series-label-input-36:focus {
+  border: none;
+  border-bottom: 2px solid #e3e2ea;
+}
+.series-label-input-36 input {
+  color: #e3e2ea;
+}
+.cb-toggle.toggled.toggle-36 .cb-toggle-container {
+  background-color: #e3e2ea;
+}
+[data-color-index="37"] path {
+  stroke: #bab8cc;
+}
+[data-color-index="37"] rect {
+  fill: #bab8cc;
+}
+[data-color-index="37"] circle {
+  stroke: #bab8cc;
+  stroke-width: 2px;
+  fill: #bab8cc;
+}
+.color-index-37 {
+  fill: #bab8cc;
+}
+rect[data-color-index="37"] {
+  fill: #bab8cc;
+}
+text[data-color-index="37"] {
+  fill: #bab8cc;
+}
+.d4 .axis .tick text[data-color-index="37"] {
+  fill: #bab8cc;
+}
+.cb-colorpicker-color-37 {
+  background-color: #bab8cc;
+}
+.series-label-37 {
+  color: #bab8cc;
+}
+.series-label-input-37 {
+  border-bottom: 2px solid #bab8cc;
+}
+.series-label-input-37:hover,
+.series-label-input-37:focus {
+  border: none;
+  border-bottom: 2px solid #bab8cc;
+}
+.series-label-input-37 input {
+  color: #bab8cc;
+}
+.cb-toggle.toggled.toggle-37 .cb-toggle-container {
+  background-color: #bab8cc;
+}
+[data-color-index="38"] path {
+  stroke: #9e9bb7;
+}
+[data-color-index="38"] rect {
+  fill: #9e9bb7;
+}
+[data-color-index="38"] circle {
+  stroke: #9e9bb7;
+  stroke-width: 2px;
+  fill: #9e9bb7;
+}
+.color-index-38 {
+  fill: #9e9bb7;
+}
+rect[data-color-index="38"] {
+  fill: #9e9bb7;
+}
+text[data-color-index="38"] {
+  fill: #9e9bb7;
+}
+.d4 .axis .tick text[data-color-index="38"] {
+  fill: #9e9bb7;
+}
+.cb-colorpicker-color-38 {
+  background-color: #9e9bb7;
+}
+.series-label-38 {
+  color: #9e9bb7;
+}
+.series-label-input-38 {
+  border-bottom: 2px solid #9e9bb7;
+}
+.series-label-input-38:hover,
+.series-label-input-38:focus {
+  border: none;
+  border-bottom: 2px solid #9e9bb7;
+}
+.series-label-input-38 input {
+  color: #9e9bb7;
+}
+.cb-toggle.toggled.toggle-38 .cb-toggle-container {
+  background-color: #9e9bb7;
+}
+[data-color-index="39"] path {
+  stroke: #747098;
+}
+[data-color-index="39"] rect {
+  fill: #747098;
+}
+[data-color-index="39"] circle {
+  stroke: #747098;
+  stroke-width: 2px;
+  fill: #747098;
+}
+.color-index-39 {
+  fill: #747098;
+}
+rect[data-color-index="39"] {
+  fill: #747098;
+}
+text[data-color-index="39"] {
+  fill: #747098;
+}
+.d4 .axis .tick text[data-color-index="39"] {
+  fill: #747098;
+}
+.cb-colorpicker-color-39 {
+  background-color: #747098;
+}
+.series-label-39 {
+  color: #747098;
+}
+.series-label-input-39 {
+  border-bottom: 2px solid #747098;
+}
+.series-label-input-39:hover,
+.series-label-input-39:focus {
+  border: none;
+  border-bottom: 2px solid #747098;
+}
+.series-label-input-39 input {
+  color: #747098;
+}
+.cb-toggle.toggled.toggle-39 .cb-toggle-container {
+  background-color: #747098;
+}
+[data-color-index="40"] path {
+  stroke: #514c7e;
+}
+[data-color-index="40"] rect {
+  fill: #514c7e;
+}
+[data-color-index="40"] circle {
+  stroke: #514c7e;
+  stroke-width: 2px;
+  fill: #514c7e;
+}
+.color-index-40 {
+  fill: #514c7e;
+}
+rect[data-color-index="40"] {
+  fill: #514c7e;
+}
+text[data-color-index="40"] {
+  fill: #514c7e;
+}
+.d4 .axis .tick text[data-color-index="40"] {
+  fill: #514c7e;
+}
+.cb-colorpicker-color-40 {
+  background-color: #514c7e;
+}
+.series-label-40 {
+  color: #514c7e;
+}
+.series-label-input-40 {
+  border-bottom: 2px solid #514c7e;
+}
+.series-label-input-40:hover,
+.series-label-input-40:focus {
+  border: none;
+  border-bottom: 2px solid #514c7e;
+}
+.series-label-input-40 input {
+  color: #514c7e;
+}
+.cb-toggle.toggled.toggle-40 .cb-toggle-container {
+  background-color: #514c7e;
+}
+[data-color-index="41"] path {
+  stroke: #261f5e;
+}
+[data-color-index="41"] rect {
+  fill: #261f5e;
+}
+[data-color-index="41"] circle {
+  stroke: #261f5e;
+  stroke-width: 2px;
+  fill: #261f5e;
+}
+.color-index-41 {
+  fill: #261f5e;
+}
+rect[data-color-index="41"] {
+  fill: #261f5e;
+}
+text[data-color-index="41"] {
+  fill: #261f5e;
+}
+.d4 .axis .tick text[data-color-index="41"] {
+  fill: #261f5e;
+}
+.cb-colorpicker-color-41 {
+  background-color: #261f5e;
+}
+.series-label-41 {
+  color: #261f5e;
+}
+.series-label-input-41 {
+  border-bottom: 2px solid #261f5e;
+}
+.series-label-input-41:hover,
+.series-label-input-41:focus {
+  border: none;
+  border-bottom: 2px solid #261f5e;
+}
+.series-label-input-41 input {
+  color: #261f5e;
+}
+.cb-toggle.toggled.toggle-41 .cb-toggle-container {
+  background-color: #261f5e;
+}
+[data-color-index="42"] path {
+  stroke: #999;
+}
+[data-color-index="42"] rect {
+  fill: #999;
+}
+[data-color-index="42"] circle {
+  stroke: #999;
+  stroke-width: 2px;
+  fill: #999;
+}
+.color-index-42 {
+  fill: #999;
+}
+rect[data-color-index="42"] {
+  fill: #999;
+}
+text[data-color-index="42"] {
+  fill: #999;
+}
+.d4 .axis .tick text[data-color-index="42"] {
+  fill: #999;
+}
+.cb-colorpicker-color-42 {
+  background-color: #999;
+}
+.series-label-42 {
+  color: #999;
+}
+.series-label-input-42 {
+  border-bottom: 2px solid #999;
+}
+.series-label-input-42:hover,
+.series-label-input-42:focus {
+  border: none;
+  border-bottom: 2px solid #999;
+}
+.series-label-input-42 input {
+  color: #999;
+}
+.cb-toggle.toggled.toggle-42 .cb-toggle-container {
+  background-color: #999;
+}
+[data-color-index="43"] path {
+  stroke: #666;
+}
+[data-color-index="43"] rect {
+  fill: #666;
+}
+[data-color-index="43"] circle {
+  stroke: #666;
+  stroke-width: 2px;
+  fill: #666;
+}
+.color-index-43 {
+  fill: #666;
+}
+rect[data-color-index="43"] {
+  fill: #666;
+}
+text[data-color-index="43"] {
+  fill: #666;
+}
+.d4 .axis .tick text[data-color-index="43"] {
+  fill: #666;
+}
+.cb-colorpicker-color-43 {
+  background-color: #666;
+}
+.series-label-43 {
+  color: #666;
+}
+.series-label-input-43 {
+  border-bottom: 2px solid #666;
+}
+.series-label-input-43:hover,
+.series-label-input-43:focus {
+  border: none;
+  border-bottom: 2px solid #666;
+}
+.series-label-input-43 input {
+  color: #666;
+}
+.cb-toggle.toggled.toggle-43 .cb-toggle-container {
+  background-color: #666;
+}
+[data-color-index="44"] path {
+  stroke: #ccc;
+}
+[data-color-index="44"] rect {
+  fill: #ccc;
+}
+[data-color-index="44"] circle {
+  stroke: #ccc;
+  stroke-width: 2px;
+  fill: #ccc;
+}
+.color-index-44 {
+  fill: #ccc;
+}
+rect[data-color-index="44"] {
+  fill: #ccc;
+}
+text[data-color-index="44"] {
+  fill: #ccc;
+}
+.d4 .axis .tick text[data-color-index="44"] {
+  fill: #ccc;
+}
+.cb-colorpicker-color-44 {
+  background-color: #ccc;
+}
+.series-label-44 {
+  color: #ccc;
+}
+.series-label-input-44 {
+  border-bottom: 2px solid #ccc;
+}
+.series-label-input-44:hover,
+.series-label-input-44:focus {
+  border: none;
+  border-bottom: 2px solid #ccc;
+}
+.series-label-input-44 input {
+  color: #ccc;
+}
+.cb-toggle.toggled.toggle-44 .cb-toggle-container {
   background-color: #ccc;
 }
 span.step-number {

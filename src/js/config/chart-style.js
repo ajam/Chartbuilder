@@ -17,7 +17,7 @@
 var chart_style = {
 	overtick_top: "0.8em",
 	overtick_bottom: 10,
-	numColors: 12,
+	numColors: 45,
 	xOverTick: "1em", // horizontal the distance between the yAxes and xAxis
 	creditMargin: "0.6em"
 };
