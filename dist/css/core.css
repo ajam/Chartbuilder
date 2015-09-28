@@ -2330,13 +2330,13 @@ svg.renderer-svg tspan {
   font-size: 12px;
   fill: #ccc;
 }
-.svg-text.left {
+.svg-text.svg-text-source.left {
   text-anchor: start;
 }
-.svg-text.right {
+.svg-text.svg-text-source.right {
   text-anchor: end;
 }
-.svg-text-title {
+.svg-text.svg-text-title {
   fill: #666;
   font-family: Helvetica, sans-serif;
   font-size: 20px;
