@@ -1,6 +1,6 @@
 {
   "name": "chartbuilder",
-  "version": "2.0.0",
+  "version": "2.1.2",
   "description": "Easily create beautiful charts",
   "main": "src/js/index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/quartzthings/chartbuilder-2"
+    "url": "https://github.com/Quartz/Chartbuilder"
   },
   "browser": {
     "d4": "./node_modules/d4/d4.js"
