@@ -61,13 +61,18 @@ $chart-colors = \
 	#666 \
 	#ccc 
 		
+// Ajam-specific styles
 // Add custom sizing and arrow position
 .cb-colorpicker-els
 	width 260px
 	top -310px
+	left -265px
 	&.active::after
 		top auto
 		bottom 7px
+		right auto
+		left 100%
+		transform rotate(180deg)
 
 for c, i in $chart-colors
 	[data-color-index=\"{i}\"]

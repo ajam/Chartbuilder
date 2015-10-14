@@ -1,10 +1,14 @@
 .cb-colorpicker-els {
   width: 260px;
   top: -310px;
+  left: -265px;
 }
 .cb-colorpicker-els.active::after {
   top: auto;
   bottom: 7px;
+  right: auto;
+  left: 100%;
+  transform: rotate(180deg);
 }
 [data-color-index="0"] path {
   stroke: #66c2a5;
